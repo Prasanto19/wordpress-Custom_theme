@@ -41,7 +41,7 @@
     <nav>
         <div id="logo-img">
             <a href="<?php echo site_url('') //display front page?>">
-                <img src="<?php echo get_template_directory_uri();//Add root directory ?>/img/logo.png" alt="Custom Theme Logo">
+                &lt;Prashanta/&gt;
             </a>
         </div>
         <div id="menu-icon">
