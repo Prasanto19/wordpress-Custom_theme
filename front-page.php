@@ -1,6 +1,6 @@
 <?php get_header(); ?>
     <div id="banner">
-        <h1>&lt;Wordpress Custom Theme/&gt;</h1>
+        <h1>&lt;WP Custom Theme/&gt;</h1>
         <h3>Learn coding from scratch</h3>
     </div>
 

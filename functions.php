@@ -42,7 +42,9 @@ function custom_theme_post_type() {
             'has_archive' => true,
             'supports' => array(
                 'title','thumbnail','editor','excerpt','comments'
-            )
+            ),
+            //'taxonomies' => array('post_tag','category'), 
+
         )
             );
 }
@@ -56,7 +58,7 @@ function custom_widgets() {
 			'name' => 'Main Sidebar' ,
 			'id' => 'main_sidebar' ,
 			'before_title' => '<h3>' ,
-			'after_title' => '</h3>' ,
+			'after_title' => '</h3>' 
 		)
 	);
 }

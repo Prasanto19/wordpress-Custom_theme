@@ -32,6 +32,11 @@
                 <?php if(is_page('about')) echo 'class="active"' ?>
                 >About</a>
             </li>
+            <li>
+                <a href="<?php echo site_url('/contact') //display page-contact page?>"
+                <?php if(is_page('contact')) echo 'class="active"' ?>
+                >Contact</a>
+            </li>
             <div class = "searchbox-slide-menu">
                 <?php get_search_form();?>
             </div>
@@ -68,6 +73,11 @@
                 <a href="<?php echo site_url('/about') //display page-about page?>"
                 <?php if(is_page('about')) echo 'class="active"' ?>
                 >About</a>
+            </li>
+            <li>
+                <a href="<?php echo site_url('/contact') //display page-contact page?>"
+                <?php if(is_page('contact')) echo 'class="active"' ?>
+                >Contact</a>
             </li>
             <li>
                 <div id="search-icon">
