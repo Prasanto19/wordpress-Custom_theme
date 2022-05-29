@@ -1,15 +1,22 @@
+<!-- Will not display; archive-projects file will be displayed -->
 <?php get_header(); ?>
 
-            <h2 class="page-heading">All Blogs</h2>
+
+            <h2 class="page-heading"><?php the_archive_title()?> </h2>
 
 
         <section>
 
         <?php
             
-
+            // $args = array (
+            //     'post_type' => 'projects',
+            //     'post_per_page' => 2
+        
+            // );
+            // $blogposts = new Wp_Query($args);
             while( have_posts()) {
-                the_post();
+               the_post();
 
             
         ?>
@@ -27,7 +34,7 @@
                     </a>
 
                     <div class="card-meta">
-                        Posted By <?php the_author(); ?> on <?php the_time('F j, Y');?> in <a href="#"><?php echo get_the_category_list(','); ?></a>
+                        Posted By <?php the_author(); ?> on <?php the_time('F j, Y');?> 
                     </div>
                     <p>
                         <?php echo wp_trim_words(get_the_excerpt(),30/*30 character*/); //Post excerpt with trimming the spaces?>
@@ -35,6 +42,7 @@
                     <a href="<?php echo the_permalink(); //Post link?>" class="btn-readmore">Read more</a>
                 </div>
             </div>
+            
             <?php 
                 } 
                 wp_reset_query(); //It's is a good practice if we use custom query
@@ -42,10 +50,11 @@
 
             
         </section>
-
         <div class="pagination">
             <?php echo paginate_links(); ?>
         </div>
+
+        
 
        
 <?php get_footer(); ?>
