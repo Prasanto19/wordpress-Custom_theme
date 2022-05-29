@@ -32,18 +32,18 @@
                 <div id="social-media-footer">
                     <ul>
                         <li>
-                            <a href="#">
+                            <a href="https://github.com/Prasanto19" target = "_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/prasanto.cou/" target = "_blank">
                                 <i class="fab fa-facebook"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-github"></i>
+                            <a href="https://www.instagram.com/prasanto19/" target = "_blank">
+                                <i class="fab fa-instagram"></i>
                             </a>
                         </li>
                     </ul>
