@@ -51,12 +51,22 @@ This portfolio was built using these technologies.
 
 **📖 Multi-Page Layout**
 
-**🎨 Custom-post-type, Page template, Archive template, Post and category control, 
-Comment control, Custom sidebar, Create contact form with contact-form-7 plugin, 
-Integrate theme with wordpress and mysql database, Finally deploy static format on netlify.**
+**🎨 What I have used**
+
+- Custom-post-type
+- Page template
+- Archive template
+- Post and category control
+- Comment control
+- Custom sidebar
+- Create contact
+- form with "contact-form-7" plugin
+- Integrate theme with wordpress and mysql database
+- converted it to static pages with "simply static" pluggin
+- Finally deploy static format on netlify.(becausing free good database hosting site are not available)
 
 **📱 Fully Responsive**
 
 ### Show your support
 
-Give a ⭐ if you like this website!
+Give me a ⭐ if you like this website!
